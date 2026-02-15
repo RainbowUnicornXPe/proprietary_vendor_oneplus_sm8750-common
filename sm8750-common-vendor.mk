@@ -23,6 +23,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/audio_algos_ver/OPSR_Version.txt:$(TARGET_COPY_OUT_ODM)/etc/audio_algos_ver/OPSR_Version.txt \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/audio_algos_ver/OPVE_Version.txt:$(TARGET_COPY_OUT_ODM)/etc/audio_algos_ver/OPVE_Version.txt \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/charge.cfg:$(TARGET_COPY_OUT_ODM)/etc/charge.cfg \
+    vendor/oneplus/sm8750-common/proprietary/odm/etc/dolby/display/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/etc/dolby/display/dolby_vision.cfg \
+    vendor/oneplus/sm8750-common/proprietary/odm/etc/dolby/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/etc/dolby/dolby_vision.cfg \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/horae/horae_target.conf:$(TARGET_COPY_OUT_ODM)/etc/horae/horae_target.conf \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/hw/init.oplus.display.rc:$(TARGET_COPY_OUT_ODM)/etc/init/hw/init.oplus.display.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/hw/init.oplus.wifi.rc:$(TARGET_COPY_OUT_ODM)/etc/init/hw/init.oplus.wifi.rc \
@@ -35,6 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.face@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.face@1.0-service.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/vendor.oplus.hardware.charger-V11-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger-V11-service.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc \
+    vendor/oneplus/sm8750-common/proprietary/odm/etc/media_codecs_dolby_vision.xml:$(TARGET_COPY_OUT_ODM)/etc/media_codecs_dolby_vision.xml \
     vendor/oneplus/sm8750-common/proprietary/odm/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_ODM)/etc/media_profiles_V1_0.xml \
     vendor/oneplus/sm8750-common/proprietary/odm/init.oplus.face.rc:$(TARGET_COPY_OUT_ODM)/init.oplus.face.rc \
     vendor/oneplus/sm8750-common/proprietary/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_ODM)/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
@@ -73,6 +76,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8750-common/proprietary/vendor/etc/display/pipe_config_DPU11__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/pipe_config_DPU11__.xml \
     vendor/oneplus/sm8750-common/proprietary/vendor/etc/display/ubwc_alignments.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/ubwc_alignments.json \
     vendor/oneplus/sm8750-common/proprietary/vendor/etc/display/video_alignments.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/video_alignments.json \
+    vendor/oneplus/sm8750-common/proprietary/vendor/etc/dolby_vision.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/dolby_vision.cfg \
     vendor/oneplus/sm8750-common/proprietary/vendor/etc/eva/facedetection/bias.dat:$(TARGET_COPY_OUT_VENDOR)/etc/eva/facedetection/bias.dat \
     vendor/oneplus/sm8750-common/proprietary/vendor/etc/eva/facedetection/weight.dat:$(TARGET_COPY_OUT_VENDOR)/etc/eva/facedetection/weight.dat \
     vendor/oneplus/sm8750-common/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
@@ -282,7 +286,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8750-common/proprietary/vendor/gpu/kbc/sequence_manifest.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/sequence_manifest.bin \
     vendor/oneplus/sm8750-common/proprietary/vendor/gpu/kbc/unified_kbcs_32.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_32.bin \
     vendor/oneplus/sm8750-common/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
-    vendor/oneplus/sm8750-common/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin
+    vendor/oneplus/sm8750-common/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin \
+    vendor/oneplus/sm8750-common/proprietary/vendor/persist/display/dolby_vision.cfg:$(TARGET_COPY_OUT_VENDOR)/persist/display/dolby_vision.cfg
 
 PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk \
