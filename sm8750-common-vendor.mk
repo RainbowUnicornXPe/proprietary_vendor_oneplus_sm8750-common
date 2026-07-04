@@ -678,19 +678,7 @@ PRODUCT_PACKAGES += \
     libvpp_svc_skel \
     libvpp_vqa_networks \
     libworker_pool \
-    libbundleaidl \
-    libdownmixaidl \
-    libdynamicsprocessingaidl \
-    libloudnessenhanceraidl \
-    libqcompostprocbundle \
-    libqcomvisualizer \
-    libqcomvoiceprocessing \
     libquasar \
-    libreverbaidl \
-    libvisualizeraidl \
-    libvolumelistener \
-    vendor.oplus.hardware.cwb-V2-ndk \
-    vendor.oplus.hardware.cwb@1.0 \
     vendor.qti.diaghal-V1-ndk_vendor \
     vendor.qti.hardware.ListenSoundModelAidl-V1-ndk \
     vendor.qti.hardware.alarm-V1-ndk \
@@ -793,6 +781,7 @@ PRODUCT_PACKAGES += \
     libQnnHtpV79Stub \
     libQnnSaver \
     libQnnSystem \
+    libSchedAssistExtImpl_vendor \
     libaiboost \
     libaiboost_llm \
     libaiboost_qnn_external_delegate_te \
@@ -1265,11 +1254,6 @@ PRODUCT_PACKAGES += \
     vendor.libdpmframework \
     vendor.libdpmtcm \
     vendor.libmwqemiptablemgr \
-    vendor.oplus.hardware.appradioaidl-V1-ndk \
-    vendor.oplus.hardware.communicationcenter-V2-ndk_vendor \
-    vendor.oplus.hardware.ims-V1-ndk \
-    vendor.oplus.hardware.subsys-V5-ndk_vendor \
-    vendor.oplus.hardware.subsys_imsrtp-V1-ndk \
     vendor.qti.ImsRtpService-V1-ndk_vendor \
     vendor.qti.ImsRtpService-aidl-Impl \
     vendor.qti.data.factoryservice-V1-ndk \
@@ -1355,9 +1339,6 @@ PRODUCT_PACKAGES += \
     libsubsys-service \
     libsubsys-utils \
     libvasapi \
-    vendor.oplus.hardware.communicationcenter-V2-ndk \
-    vendor.oplus.hardware.subsys-V5-ndk \
-    vendor.oplus.hardware.subsys_radio-V9-ndk \
     CACertService \
     CneApp \
     IWlanService \
