@@ -19,4 +19,3 @@ libQnnSystem.so
 libQnnHtpV79Stub.so
 libQnnGpu.so
 libQnnHtpStub.so
-libapsfixup.so
