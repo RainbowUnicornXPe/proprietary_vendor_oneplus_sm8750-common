@@ -339,7 +339,6 @@ PRODUCT_PACKAGES += \
     libadsprpc \
     libar-pal \
     libarmemlog \
-    libaudio_aidl_conversion_common_ndk_prebuilt \
     libaudio_log_utils \
     libaudioplatformconverter.qti \
     libaudioserviceexampleimpl \
