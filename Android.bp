@@ -24347,6 +24347,34 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    name: "mdm_feature",
+    owner: "oneplus",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/bin/hw/mdm_feature",
+            ],
+            shared_libs: [
+                "libbase",
+                "libxml2",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    relative_install_path: "hw",
+    device_specific: true,
+}
+
+cc_prebuilt_binary {
     name: "subsys_daemon",
     owner: "oneplus",
     target: {
